@@ -1,20 +1,22 @@
 function euroConverter(){
-document.converter.dollar.value = document.converter.euro.value * 1.470
-document.converter.pound.value = document.converter.euro.value * 0.717
-document.converter.yen.value = document.converter.euro.value * 165.192
+document.converter.dollar.value = document.converter.euro.value * 1.13
+document.converter.pound.value = document.converter.euro.value * 0.86
+document.converter.yen.value = document.converter.euro.value * 124.18
 }
 function dollarConverter(){
-document.converter.euro.value = document.converter.dollar.value * 0.680
-document.converter.pound.value = document.converter.dollar.value * 0.488
-document.converter.yen.value = document.converter.dollar.value * 112.36
+document.converter.euro.value = document.converter.dollar.value * 0.89
+document.converter.pound.value = document.converter.dollar.value * 0.76
+document.converter.yen.value = document.converter.dollar.value * 110.33
 }
 function poundConverter(){
-document.converter.dollar.value = document.converter.pound.value * 2.049
-document.converter.euro.value = document.converter.pound.value * 1.394
-document.converter.yen.value = document.converter.pound.value * 230.27
+document.converter.dollar.value = document.converter.pound.value * 1.31
+document.converter.euro.value = document.converter.pound.value * 1.17
+document.converter.yen.value = document.converter.pound.value * 144.91
 }
 function yenConverter(){
-document.converter.dollar.value = document.converter.yen.value * 0.0089
-document.converter.pound.value = document.converter.yen.value * 0.00434
-document.converter.euro.value = document.converter.yen.value * 0.00605
+document.converter.dollar.value = document.converter.yen.value * 0.0091
+document.converter.pound.value = document.converter.yen.value * 0.0069
+document.converter.euro.value = document.converter.yen.value * 0.0081
 }
+
+

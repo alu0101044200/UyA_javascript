@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/materialize-social.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/font-awesome.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+<!--Converter Money-->
+<form name="converter">
+  <table>
+  <tr>
+  <td>Euro: </td><td><input type="text" name="euro" onChange="euroConverter()" /></td>
+  </tr>
+  <tr>
+  <td>US Dollar: </td><td><input type="text" name="dollar" onChange="dollarConverter()" /></td>
+  </tr>
+  <tr>
+  <td>British Pound:</td><td><input type="text" name="pound" onChange="poundConverter()" /></td>
+  </tr>
+  <tr>
+  <td>Japanese Yen: </td><td><input type="text" name="yen" onChange="yenConverter()" /></td>
+  </tr>
+  <tr>
+  <td><input type="button" value="Convert!" /></td>
+  </tr>
+  </table>
+  </form>
+
+
+<!--Ejercicio 4-->
+
+  <div class="container">
+        <div class="row">
+            <!-- Elementos generados a partir del JSON -->
+            <main id="items" class="col s1"></main>
+            
+            <!-- Carrito -->
+        </div>
+        <div class ="row">
+            <aside>
+                <h2>Carrito</h2>
+                <!-- Elementos del carrito -->
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <!-- Precio total -->
+                <p class="text-right">Total: <span id="total"></span>&euro;</p>
+            </aside>
+        </div>
+    </div>
+
+
+
+    
+  <script src="js/materialize.js"></script>
+  <script src="js/money.js"></script>
+  <script src="js/ej2.js"></script>
+  <script src="js/ej5.js"></script>
+</body>
+</html>
+
+

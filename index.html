@@ -17,6 +17,8 @@
 
 
   
+  
+
 </head>
 
 <body>
@@ -32,8 +34,11 @@
           </ul>
 
           <ul id="nav-mobile" class="right hide-on-left-and-down">
+              <li class="tab"><i class="medium material-icons">monetization_on</i></li>   
+              <li class="tab"><a href="new.html">Cambio de divisas</a></li>
               <li class="tab"><i class="medium material-icons">account_circle</i></li>
-              <li class="tab"><a href="#">Identifícate</a></li>          
+              <li class="tab"><a href="#">Identifícate</a></li>   
+                  
           </ul>
         </div>
 
@@ -113,6 +118,16 @@
 <!--CENTER COLUMN-->
 
 <div id="center_column">
+
+    <p id="tagA">Total elementos de a: </p>
+    <button onclick="ejercicio5()">Elementos a</button>
+    
+    <p id="tagP">Total elementos de p: </p>
+    <button onclick="elementos_p()">Elementos p</button>
+    
+    <p id="tagUL">Total elementos de ul: </p>
+    <button onclick="elementos_ul()">Elementos ul</button>
+
   <h2>Novedades y tendencias</h2>
   <h3>Novedades y títulos de actualidad</h3>
   <hr>
@@ -135,7 +150,7 @@
     <a class="carousel-item" href="#two!"><img class="responsive-img" src="Imagenes/tierra.jpg"></a>
     <a class="carousel-item" href="#three!"><img class="responsive-img" src="Imagenes/humo.jpg"></a>
     <a class="carousel-item" href="#four!"><img class="responsive-img" src="Imagenes/descubrir.jpg"></a>
-    <a class="carousel-item" href="#five!"><img class="responsive-img" src="Imagenes/tiempo.jpg"></a>
+    <a class="carousel-item" href="#five!"><img class="responsive-img" src="Imagenes/tiempo.JPG"></a>
     <a class="carousel-item" href="#four!"><img class="responsive-img" src="Imagenes/sombra.jpg"></a>
   </div>
 
@@ -167,28 +182,13 @@
       <a href="https://www.iberlibro.com/libros/comprar-libros-online/index.shtml"><img class="responsive-img" src="Imagenes/iber.png"></a>
       <a href="https://www.casadellibro.com/"><img class="responsive-img" src="Imagenes/casa.png"></a>         
 </aside>
+
+
+
+
 </div>
 
-<!--Converter Money-->
-<form name="converter">
-  <table border="0">
-  <tr>
-  <td>Euro: </td><td><input type="text" name="euro" onChange="euroConverter()" /></td>
-  </tr>
-  <tr>
-  <td>US Dollar: </td><td><input type="text" name="dollar" onChange="dollarConverter()" /></td>
-  </tr>
-  <tr>
-  <td>British Pound:</td><td><input type="text" name="pound" onChange="poundConverter()" /></td>
-  </tr>
-  <tr>
-  <td>Japanese Yen: </td><td><input type="text" name="yen" onChange="yenConverter()" /></td>
-  </tr>
-  <tr>
-  <td colspan="2" align="center"><input type="button" value="Convert!" /></td>
-  </tr>
-  </table>
-  </form>
+
 
  <!--FOOTER-->
 
@@ -230,6 +230,8 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script src="js/money.js"></script>
+  <script src="js/ej5.js"></script>
+  
 
 </body>
 </html>
